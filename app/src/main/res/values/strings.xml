@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Atlas</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="faq">FAQ</string>
+    <string name="settings">Settings</string>
+    <string name="thematic_map">Thematic Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="map_key">Map Key:</string>
+    <string name="no_map_found">No map found</string>
+
+    <string name="hint_map_key">Enter Map Key "abc"</string>
+    <string name="save">Save</string>
+    <string name="ok">Ok</string>
+
+    <string name="map_key_error">Please enter valid map key</string>
+    <string name="map_key_success">Map key saved successfully!!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

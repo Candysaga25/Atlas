@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.atlas.fragments.SettingFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/lblMapKey"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:text="@string/map_key"
+            android:textSize="@dimen/title_text_size" />
+
+        <EditText
+            android:id="@+id/edt_Mapkey"
+            style="@style/StyledTilEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/lblMapKey"
+            android:layout_toRightOf="@+id/lblMapKey"
+            android:gravity="center_vertical"
+            android:hint="@string/hint_map_key"
+            android:inputType="textNoSuggestions"
+            android:minWidth="300dp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:textColor="@color/app_gray_color"
+            android:textColorHint="@color/app_gray_color"
+            android:textSize="@dimen/title_text_size" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@color/topbar_color"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size" />
+</RelativeLayout>
